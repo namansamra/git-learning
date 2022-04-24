@@ -19,6 +19,9 @@ function App() {
         <p style={{ color: 'red', fontSize: '24px', fontWeight: 500 }}>
           Hello Naman!
         </p>
+        <p style={{ color: 'orange', fontSize: '24px', fontWeight: 500 }}>
+          Hello Orange!!!!
+        </p>
         <p>
           <button
             type="button"
