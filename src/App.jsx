@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,6 +6,11 @@ function App() {
   const [count, setCount] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [randomText, setRandomText] = usetState('random beta');
+  const [someState, setSomeState] = useState('');
+
+  useEffect(() => {
+    setSomeState('Some State');
+  }, []);
 
   return (
     <div className="App">
