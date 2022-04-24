@@ -33,9 +33,13 @@ function App() {
             padding: 20,
           }}
         >
-          <div style={{ fontSize: '20px', color: '#344054' }}>Hello beta</div>
-          <div style={{ fontSize: '18px', color: '#344054' }}>Welcome Here</div>
-          <div style={{ fontSize: '24px', color: '#344054' }}>
+          <div style={{ fontSize: '20px', fontWeight: 700, color: '#344054' }}>
+            Hello beta
+          </div>
+          <div style={{ fontSize: '18px', fontWeight: 500, color: '#344054' }}>
+            Welcome Here
+          </div>
+          <div style={{ fontSize: '24px', fontWeight: 400, color: '#344054' }}>
             This is one of the greatest counter
           </div>
         </div>
