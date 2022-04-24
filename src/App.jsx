@@ -30,7 +30,7 @@ function App() {
           <div
             style={{
               display: 'flex',
-              backgroundColor: 'white',
+              backgroundColor: 'cyan',
               borderRadius: '5px',
               boxShadow: '8px 10px #e9e9e9',
               minHeight: '400px',
