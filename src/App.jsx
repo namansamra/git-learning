@@ -10,7 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Naman!</p>
+        <p style={{ color: 'red', fontSize: '24px', fontWeight: 500 }}>
+          Hello Naman!
+        </p>
         <p>
           <button
             type="button"
