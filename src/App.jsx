@@ -5,12 +5,15 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
   const [showModal, setShowModal] = useState(false);
+  const [randomText, setRandomText] = usetState('random beta');
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Naman!</p>
+        <p style={{ color: 'red', fontSize: '24px', fontWeight: 500 }}>
+          Hello Naman!
+        </p>
         <p>
           <button
             type="button"
@@ -84,6 +87,12 @@ function App() {
             Vite Docs read with power
           </a>
         </p>
+
+        <button
+          onClick={() => setRandomText(Math.random() + ' ' + 'hello random')}
+        >
+          {randomText}
+        </button>
       </header>
     </div>
   );
