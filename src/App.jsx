@@ -18,6 +18,14 @@ function App() {
               setCount((count) => count + 100);
               setShowModal((prev) => !prev);
             }}
+            style={{
+              width: '200px',
+              height: '80px',
+              padding: 10,
+              borderRadius: 8,
+              color: '#fff',
+              backgroundColor: '#307FFF',
+            }}
           >
             count is: {count}
           </button>
