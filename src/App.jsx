@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
   const [showModal, setShowModal] = useState(false);
+  const [randomText, setRandomText] = usetState('random beta');
 
   return (
     <div className="App">
@@ -78,6 +79,12 @@ function App() {
             Vite Docs read with power
           </a>
         </p>
+
+        <button
+          onClick={() => setRandomText(Math.random() + ' ' + 'hello random')}
+        >
+          {randomText}
+        </button>
       </header>
     </div>
   );
