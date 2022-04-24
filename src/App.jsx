@@ -59,7 +59,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Vite Docs read with power
           </a>
         </p>
       </header>
